@@ -1,5 +1,6 @@
 # KIND cluster config.
 apiVersion: kind.x-k8s.io/v1alpha4
+kind: Cluster
 nodes:
   - role: control-plane
   # The MongoDB worker. Its mongo-data label is used to place the database pod.
